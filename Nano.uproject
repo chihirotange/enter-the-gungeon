@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Nano",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OculusVR",
@@ -308,6 +318,34 @@
 		},
 		{
 			"Name": "BackChannel",
+			"Enabled": false
+		},
+		{
+			"Name": "AnimationSharing",
+			"Enabled": false
+		},
+		{
+			"Name": "AnimationModifierLibrary",
+			"Enabled": false
+		},
+		{
+			"Name": "ACLPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "BlendSpaceMotionAnalysis",
+			"Enabled": false
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": false
+		},
+		{
+			"Name": "Synthesis",
+			"Enabled": false
+		},
+		{
+			"Name": "SoundFields",
 			"Enabled": false
 		}
 	],
