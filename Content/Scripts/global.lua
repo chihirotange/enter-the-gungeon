@@ -4,10 +4,9 @@ STATS = {
     },
     AI_CHAN = {
         HP = 234,
-        MOVE_SPEED = 200
+        MOVE_SPEED = 500
     }
 }
-
 function get_stat(id, stat_name)
     return STATS[id][stat_name]
 end
