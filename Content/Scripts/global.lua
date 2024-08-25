@@ -5,6 +5,9 @@ STATS = {
     AI_CHAN = {
         HP = 234,
         MOVE_SPEED = 500
+    },
+    PROJECTILE = {
+        SPEED = 1000
     }
 }
 function get_stat(id, stat_name)
