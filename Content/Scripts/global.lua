@@ -3,11 +3,19 @@ STATS = {
         SPRING_ARM_LENGTH = 500
     },
     AI_CHAN = {
-        HP = 234,
-        MOVE_SPEED = 500
+        HP = 10,
+        SPEED = 500,
+        JUMP_STAT = {
+            VELOCITY = 1000,
+            AIR_CONTROL = 0.05,
+            GRAVITY_SCALE = 3,
+        }
+
     },
     PROJECTILE = {
-        SPEED = 1000
+        SPEED = 1000,
+        DAMAGE = 1,
+        LIFESPAN = 2,
     }
 }
 function get_stat(id, stat_name)
