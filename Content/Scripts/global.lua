@@ -1,7 +1,8 @@
 STATS = {
     MAIN_CAMERA = {
-        SPRING_ARM_LENGTH = 500
+        SPRING_ARM_LENGTH = 1600
     },
+
     AI_CHAN = {
         HP = 10,
         SPEED = 500,
@@ -12,6 +13,11 @@ STATS = {
         }
 
     },
+
+    PIG = {
+        HP = 2,
+    },
+
     PROJECTILE = {
         SPEED = 1000,
         DAMAGE = 1,
