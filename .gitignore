@@ -52,8 +52,8 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
-!Plugins/LuaMachine/Binaries/**/*.pdb
+Plugins/*/Binaries/**/*.modules
+Plugins/*/Binaries/**/*.pdb
 # Builds
 Build/*
 
@@ -77,3 +77,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#lua machine
+!Plugins/LuaMachine/Binaries/**/*.pdb
