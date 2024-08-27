@@ -15,6 +15,7 @@ STATS = {
     },
 
     PIG = {
+        SPEED = 400,
         HP = 2,
     },
 
