@@ -5,7 +5,7 @@ STATS = {
 
     AI_CHAN = {
         HP = 10,
-        SPEED = 500,
+        SPEED = 400,
         JUMP_STAT = {
             VELOCITY = 1000,
             AIR_CONTROL = 0.05,
@@ -20,7 +20,7 @@ STATS = {
     },
 
     PROJECTILE = {
-        SPEED = 1000,
+        SPEED = 2000,
         DAMAGE = 1,
         LIFESPAN = 2,
     }
