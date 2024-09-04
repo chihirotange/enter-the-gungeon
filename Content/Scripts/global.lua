@@ -25,8 +25,3 @@ STATS = {
 function get_stat(id, stat_name)
     return STATS[id][stat_name]
 end
-
--- CAMERA
-function get_camera_info(key)
-    return STATS["MAIN_CAMERA"][key]
-end
