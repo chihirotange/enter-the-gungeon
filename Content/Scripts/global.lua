@@ -1,17 +1,14 @@
 STATS = {
     MAIN_CAMERA = {
-        SPRING_ARM_LENGTH = 1600
-    },
-
-    AI_CHAN = {
+        LENGTH = 1600
+        },
+        
+        AI_CHAN = {
         HP = 10,
         SPEED = 400,
-        JUMP_STAT = {
-            VELOCITY = 1000,
-            AIR_CONTROL = 0.05,
-            GRAVITY_SCALE = 3,
-        }
-
+        JUMP_VELOCITY = 1000,
+        AIR_CONTROL = 0.05,
+        GRAVITY_SCALE = 3,
     },
 
     PIG = {
@@ -27,9 +24,4 @@ STATS = {
 }
 function get_stat(id, stat_name)
     return STATS[id][stat_name]
-end
-
--- CAMERA
-function get_camera_info(key)
-    return STATS["MAIN_CAMERA"][key]
 end
