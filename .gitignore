@@ -80,3 +80,4 @@ DerivedDataCache/*
 
 #lua machine
 !Plugins/LuaMachine/Binaries/**/*.pdb
+*.vsconfig
