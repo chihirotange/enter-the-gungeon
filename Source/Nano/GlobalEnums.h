@@ -25,5 +25,15 @@ enum EStat
 
 	BULLET UMETA(DisplayName = "BULLET"),
 
-	FIRERATE UMETA(DisplayName = "FIRERATE")
+	FIRERATE UMETA(DisplayName = "FIRERATE"),
+
+	RELOAD_TIME UMETA(DisplayName = "RELOAD_TIME")
+};
+
+UENUM(BlueprintType)
+enum ETeam
+{
+	TEAM_NEUTRAL UMETA(DisplayName = "TEAM_NEUTRAL"),
+	TEAM_PLAYER UMETA(DisplayName = "TEAM_PLAYER"),
+	TEAM_ENEMY UMETA(DisplayName = "TEAM_ENEMY"),
 };

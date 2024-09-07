@@ -13,7 +13,7 @@ STATS = {
 
     PIG = {
         SPEED = 400,
-        HP = 2,
+        HP = 12,
     },
 
     PROJECTILE = {
@@ -24,9 +24,11 @@ STATS = {
 
     HANDGUN = {
         BULLET = 6,
-        FIRERATE = 0.2,
+        RELOAD_TIME = 2,
+        FIRERATE = 0.5,
     }
 }
 function get_stat(id, stat_name)
+    -- return 1000
     return STATS[id][stat_name]
 end

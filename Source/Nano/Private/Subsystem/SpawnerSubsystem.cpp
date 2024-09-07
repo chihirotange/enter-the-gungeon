@@ -3,8 +3,6 @@
 
 #include "Subsystem/SpawnerSubsystem.h"
 
-#include "K2Node_SpawnActorFromClass.h"
-
 AActor* USpawnerSubsystem::SpawnActor(UClass* OfClass, FName ID, FTransform Transform)
 {
 	AActor* SpawnedActor = GetWorld()->SpawnActor(OfClass);
