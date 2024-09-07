@@ -21,5 +21,9 @@ enum EStat
 
 	AIR_CONTROL UMETA(DisplayName = "AIR_CONTROL"),
 
-	GRAVITY_SCALE UMETA(DisplayName = "GRAVITY_SCALE")
+	GRAVITY_SCALE UMETA(DisplayName = "GRAVITY_SCALE"),
+
+	BULLET UMETA(DisplayName = "BULLET"),
+
+	FIRERATE UMETA(DisplayName = "FIRERATE")
 };

@@ -20,6 +20,11 @@ STATS = {
         SPEED = 2000,
         DAMAGE = 1,
         LIFESPAN = 2,
+    },
+
+    HANDGUN = {
+        BULLET = 6,
+        FIRERATE = 0.2,
     }
 }
 function get_stat(id, stat_name)
