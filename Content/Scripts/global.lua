@@ -1,6 +1,6 @@
 STATS = {
     MAIN_CAMERA = {
-        LENGTH = 1600
+        LENGTH = 2000
         },
         
         AI_CHAN = {
@@ -23,9 +23,9 @@ STATS = {
     },
 
     HANDGUN = {
-        BULLET = 6,
+        BULLET = 100,
         RELOAD_TIME = 2,
-        FIRERATE = 0.5,
+        FIRERATE = 0.1,
     }
 }
 function get_stat(id, stat_name)
