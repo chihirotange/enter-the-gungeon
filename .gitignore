@@ -79,5 +79,5 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 #lua machine
-!Plugins/LuaMachine/Binaries/**/*.pdb
+# !Plugins/LuaMachine/Binaries/**/*.pdb
 *.vsconfig
